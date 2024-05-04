@@ -1,77 +1,23 @@
 #include <iostream>
 #include <string>
 #include "Personne.h"
+#include "Etudiant.h"
+#include "Note.h"
+#include "Cours.h"
+#include "Enseignant.h"
+#include "Classe.h"
 using namespace std;
 int main()
 {
-    Personne Mohamed_zwin;
-    Mohamed_zwin.test();
-    Mohamed_zwin.set_nom("mohamed new :)");
-    cout << Mohamed_zwin.get_nom()<<endl;
+    Etudiant etu("a","b","c","d","e","f");
+    Note no("examen", 15.77);
+    cout << no.get_type_note() << "\t" << no.get_note() << endl;
+    no.set_note(22.77);
+    no.set_type_note("pas examen");
+    cout << no.get_type_note()<<"\t" << no.get_note() << endl;
+    Classe cl("e", "e", 2.3);
+    cout <<"get coeff:   " << cl.get_coefficient() << endl;
+    
+    
     return 0;
 }
-
-/*
- #pragma once
-
-class MyClass {
-public:
-    // Constructor
-    MyClass(int value);
-
-    // Destructor
-    ~MyClass();
-
-    // Member function declarations
-    void setValue(int value);
-    int getValue() const;
-
-private:
-    int m_value;
-};
-#include "MyClass.h"
-
-// Constructor definition
-MyClass::MyClass(int value) : m_value(value) {}
-
-// Destructor definition
-MyClass::~MyClass() {}
-
-// Member function definitions
-void MyClass::setValue(int value) {
-    m_value = value;
-}
-
-int MyClass::getValue() const {
-    return m_value;
-}
-
-
-------------------------------------------------------
-#pragma once
-
-class MyClass {
-public:
-    // Constructor
-    MyClass(int value) : m_value(value) {}
-
-    // Destructor
-    ~MyClass() {}
-
-    // Member function definitions
-    void setValue(int value) {
-        m_value = value;
-    }
-
-    int getValue() const {
-        return m_value;
-    }
-
-private:
-    int m_value;
-};
-
-
-
-
-*/

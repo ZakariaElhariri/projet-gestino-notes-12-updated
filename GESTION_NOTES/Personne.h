@@ -13,7 +13,7 @@ public:
 
 	//constructors:
 	//by default
-	Personne(){}
+	Personne();
 	//by parameters
 	Personne(string n, string t, string c, string a);
 	/*
@@ -26,7 +26,7 @@ public:
 	*/
 
 	//deconstructor:
-	~Personne(){}
+	~Personne();
 
 
 
