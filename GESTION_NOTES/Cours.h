@@ -10,6 +10,7 @@ using namespace std;
 	 string id_cours;
 	 string nom_cours;
 	 float coefficient;
+	 //[Cours-Note(1 a *)]
 	 vector<Note*> notes;
 public:
 	
@@ -19,6 +20,9 @@ public:
 
 	//by parameter
 	Cours(string i, string n, float c);
+
+	//by copy
+	Cours(Cours& copy);
 
 	//deconstructors:
 	~Cours();

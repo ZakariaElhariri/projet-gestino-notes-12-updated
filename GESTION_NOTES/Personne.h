@@ -16,6 +16,11 @@ public:
 	Personne();
 	//by parameters
 	Personne(string n, string t, string c, string a);
+	//by copy
+	Personne(Personne& copy);
+
+
+
 	/*
 	{
 		nom = n;

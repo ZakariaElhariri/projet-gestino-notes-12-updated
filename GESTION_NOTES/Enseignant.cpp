@@ -3,6 +3,10 @@ using namespace std;
 
 Enseignant::Enseignant(){}
 Enseignant::Enseignant(string n, string t, string c, string a, string i, string s):Personne(n,t,c,a),id_enseignant(i),specialite(s){}
+Enseignant::Enseignant(Enseignant& copy):Personne(copy) {
+	id_enseignant = copy.id_enseignant;
+	specialite = copy.specialite;
+}
 Enseignant::~Enseignant(){}
 
 /*

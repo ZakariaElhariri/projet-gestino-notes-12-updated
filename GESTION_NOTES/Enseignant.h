@@ -7,6 +7,7 @@ class Enseignant :
 {
     string id_enseignant;
     string specialite;
+    //[Enseignant-Cours(1 a *)]
     vector<Cours*> cours;
 public:
     //constructors:
@@ -14,6 +15,8 @@ public:
     Enseignant();
     //by parameter
     Enseignant(string n, string t, string c, string a, string i, string s);
+    //by copy
+    Enseignant(Enseignant& copy);
 
     //deconstructor:
     ~Enseignant();

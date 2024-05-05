@@ -1,5 +1,60 @@
-﻿  Source.cpp
-C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(13,28): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(15,22): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(18,28): warning C4305: 'argument': truncation from 'double' to 'float'
-  GESTION_NOTES.vcxproj -> C:\Users\Zakaria\source\repos\GESTION_NOTES\Debug\GESTION_NOTES.exe
+﻿  Classe.cpp
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,10): error C2065: 'Note': undeclared identifier
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,15): error C2059: syntax error: '>'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,21): error C2061: syntax error: identifier 'Note'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(13,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(13,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(13,24): error C2238: unexpected token(s) preceding ';'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(31,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(31,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(31,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(37,26): error C2061: syntax error: identifier 'Classe'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.cpp(20,28): error C2660: 'Etudiant::set_classe_associe': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Etudiant.h(37,7): message : see declaration of 'Etudiant::set_classe_associe'
+  Cours.cpp
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(11,7): error C2143: syntax error: missing ';' before '*'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(11,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(11,22): error C2238: unexpected token(s) preceding ';'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(27,7): error C2143: syntax error: missing ';' before '*'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(27,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(27,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(32,25): error C2061: syntax error: identifier 'Cours'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.cpp(20,27): error C2660: 'Note::set_cours_associe': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(32,7): message : see declaration of 'Note::set_cours_associe'
+  Enseignant.cpp
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(11,7): error C2143: syntax error: missing ';' before '*'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(11,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(11,22): error C2238: unexpected token(s) preceding ';'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(27,7): error C2143: syntax error: missing ';' before '*'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(27,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(27,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Note.h(32,25): error C2061: syntax error: identifier 'Cours'
+  Etudiant.cpp
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,10): error C2065: 'Note': undeclared identifier
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,15): error C2059: syntax error: '>'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,21): error C2061: syntax error: identifier 'Note'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(12,9): error C2065: 'Etudiant': undeclared identifier
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(12,18): error C2059: syntax error: '>'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(36,24): error C2061: syntax error: identifier 'Etudiant'
+  Note.cpp
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,10): error C2065: 'Note': undeclared identifier
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,15): error C2059: syntax error: '>'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,21): error C2061: syntax error: identifier 'Note'
+  Source.cpp
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,10): error C2065: 'Note': undeclared identifier
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(13,15): error C2059: syntax error: '>'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,21): error C2061: syntax error: identifier 'Note'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(12,9): error C2065: 'Etudiant': undeclared identifier
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(12,18): error C2059: syntax error: '>'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(36,24): error C2061: syntax error: identifier 'Etudiant'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(48,30): error C2660: 'Classe::ajouter_etudiant': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(36,7): message : see declaration of 'Classe::ajouter_etudiant'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(53,28): error C2660: 'Cours::ajouter_notes': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,7): message : see declaration of 'Cours::ajouter_notes'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(54,27): error C2660: 'Cours::ajouter_notes': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,7): message : see declaration of 'Cours::ajouter_notes'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(57,28): error C2660: 'Cours::ajouter_notes': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Cours.h(37,7): message : see declaration of 'Cours::ajouter_notes'
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Source.cpp(64,32): error C2660: 'Classe::ajouter_etudiant': function does not take 1 arguments
+C:\Users\Zakaria\source\repos\GESTION_NOTES\GESTION_NOTES\Classe.h(36,7): message : see declaration of 'Classe::ajouter_etudiant'
+  Generating Code...

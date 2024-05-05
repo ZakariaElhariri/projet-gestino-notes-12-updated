@@ -4,6 +4,12 @@ using namespace std;
 
 Personne::Personne(){}
 Personne::Personne(string n, string t, string c, string a) : nom(n),telephone(t),cin(c),adresse(a){}
+Personne::Personne(Personne& copy) {
+	nom = copy.nom;
+	telephone = copy.telephone;
+	cin = copy.cin;
+	adresse = copy.adresse;
+}
 Personne::~Personne(){}
 
 string Personne:: get_nom() { return nom; }

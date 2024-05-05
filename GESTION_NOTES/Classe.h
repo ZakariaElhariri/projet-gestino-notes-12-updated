@@ -8,15 +8,18 @@ class Classe
 {
 	string id_classe;
 	string nom_classe;
-	float coefficient;
+	int niveau;
+	//[Classe-Etudiant(1 a *)]
 	vector<Etudiant*> etudiants;
 public:
 	//constructors:
 	//by default
 	Classe();
 	// by parameter
-	Classe( string id, string no,float co);
-	
+	Classe( string id, string no,int ni);
+	// by copy
+	Classe(Classe& copy);
+
 	
 	//deconstructors:
 	~Classe();
@@ -25,12 +28,13 @@ public:
 	//getters:
 	string get_id_classe();
 	string get_nom_classe();
-	float get_coefficient();
+	int get_niveau();
 
 	//setters:
 	void set_id_classe(string p);
 	void set_nom_classe(string p);
-	void set_coefficient(float p);
+	void set_niveau(int p);
+
 
 	void ajouter_etudiant(Etudiant* e);
 
