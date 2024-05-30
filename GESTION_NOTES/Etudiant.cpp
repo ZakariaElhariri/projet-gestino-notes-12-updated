@@ -1,5 +1,6 @@
 #include "Etudiant.h"
-
+#include <algorithm>
+#include <vector>
 using namespace std;
 template <typename T>
 void display_smtgh(T p,string name)
@@ -58,8 +59,36 @@ void Etudiant::bulletin() {
 	cout << "Matricule etudiant:  " << get_matricule() << endl;
 	cout << "Nom etudiant:  " << get_nom() << endl;
 	cout << "Notes" << endl;
+	cout << "MATIERE | COEFFICIENT | TYPE NOTE | NOTE" << endl;
+	for (auto n : notes) {
+		cout << n->get_cours_associe()->get_nom_cours()<< "|" <<n->get_cours_associe()->get_coefficient()<< "|" << n->get_type_note() << "|" << n->get_note() << endl;
+	}
+	cout << "\t\t\t\t\t\t   -   Moyenne :  " << this->moyenne() << endl;
 
 }
 
 void Etudiant::ajouter_note(Note* n) { notes.push_back(n); }
 void Etudiant::set_classe_associe(Classe* c) { classe_associe = c; }
+
+//function tri
+void Etudiant::tri_decroissant_notes() {
+	// tri par la fonction sort dans la libraire algorithm
+	sort(notes.begin(), notes.end(), [](Note* a, Note* b) {
+		return a->get_note() > b->get_note(); 
+		});
+}
+void Etudiant::ajouter_1_5() {
+	for (auto n : notes) {
+		float s = n->get_note();
+		n->set_note(s + 1.5);
+	}
+}
+float Etudiant::moyenne() {
+	float moy=0;
+	float cpt = 0;
+	for (auto n : notes) {
+		cpt = cpt + 1;
+		moy = moy+n->get_note();
+	}
+	return moy / cpt;
+}

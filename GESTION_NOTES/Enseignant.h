@@ -17,20 +17,14 @@ public:
     Enseignant(string n, string t, string c, string a, string i, string s);
     //by copy
     Enseignant(Enseignant& copy);
-
     //deconstructor:
     ~Enseignant();
-
     //getters:
     string get_id_enseignant();
     string get_specialite();
-
     //setters:
     void set_id_enseignant(string p);
     void set_specialite(string p);
-
-
     void ajouter_cours(Cours* cours);
-
 };
 

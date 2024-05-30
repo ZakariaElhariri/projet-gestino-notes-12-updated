@@ -18,34 +18,17 @@ public:
 	Personne(string n, string t, string c, string a);
 	//by copy
 	Personne(Personne& copy);
-
-
-
-	/*
-	{
-		nom = n;
-		telephone = t;
-		cin = c;
-		adresse = a;
-	}
-	*/
-
 	//deconstructor:
 	~Personne();
-
-
-
 	//getters:
 	virtual string get_nom();
 	string get_telephone();
 	string get_cin();
 	string get_adresse();
-
 	//setters:
 	void set_nom(string p);
 	void set_telephone(string p);
 	void set_cin(string p);
 	void set_adresse(string p);
-
 };
 
